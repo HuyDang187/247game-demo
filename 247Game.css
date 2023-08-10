@@ -1,0 +1,245 @@
+*,::after,::before {
+    position: relative;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+html {
+    background-color: #f4e168;
+    background-image: url(/img/247-slice.png);
+    background-repeat: repeat;
+    font-family: 'Source Sans Pro',sans-serif;
+}
+div {
+    display: block;
+}
+body {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+}
+.middle{
+    background: #f9f9f9;
+}
+.middle-w {
+    width: 100%;
+    max-width: 971px;
+    margin: auto;
+    height: 100%;
+}
+.header .logo {
+    top: 27px;
+    transform: translate(0,-50%);
+    width: 327px;
+}
+.header {
+    padding-left: 10px;
+    height: 65px;
+    border-bottom: solid 2px #d9d9d9;
+    background-color: #f4e168;
+    background-image: url(/img/247-slice.png);
+    background-repeat: repeat;
+}
+.h-nav {
+    border-bottom: solid 2px #d4d4d4;
+    background: #fff;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    user-select: none;
+    height: 47px;
+}
+ul{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    width: 100%;
+}
+.h-nav ul{
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 6px;
+    width: 100%;
+}
+.h-nav li{
+    display: inline-block;
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+
+.h-nav li a {
+    color: #000;
+    text-decoration: none;
+    
+}
+.h-nav li a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+.content {
+    background-color: #fff;
+    border: 2px solid #d9d9d9;
+}
+.content section {
+    text-align: center;
+    padding: 20px;
+}
+.content section h1 {
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 32px;
+}
+.bumper-text {
+    max-width: 639px;
+    margin: auto;
+    margin-bottom: 14px;
+    color: #5d5d5d;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+.newsletter-button {
+    display: block;
+    text-decoration: none;
+    background-color: #df2c68;
+    color: #fff;
+    max-width: 250px;
+    margin: auto;
+    height: 40px;
+    font-size: 16px;
+    padding-top: 9px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    
+}
+.disconnexion {
+    border-bottom: 1px solid #5d5d5d;
+}
+.newsletter-button:hover {
+    color: #fff;
+    font-size: 17px;
+    background-color: #e24a7c;
+}
+.featured {
+    padding-top: 0;
+}
+.carousel-item {
+    background-color: #f4e168;
+}
+.tile img {
+    width: 100%;
+    height: auto;
+}
+.tile-holder {
+    margin: auto;
+    max-width: 907px;
+    margin-top: 8px;
+    margin-bottom: 50px;
+}
+.tile {
+    display: inline-block;
+    max-width: 278px;
+    max-height: 176px;
+    margin: 7px;
+}
+.subscribeBox {
+    max-width: 381px;
+    margin: auto;
+}
+.bord {
+    border :1px solid red
+}
+.formsubs {
+    display: block;
+}
+.L {
+    text-align: left;
+    
+    margin-bottom: 10px;
+}
+.asterisk {
+    color: #e85c41;
+    font-size: 150%;
+    font-weight: normal;
+    position: relative;
+    top: 5px;
+}
+.I  {
+    
+width: 384px;
+ border : 2px solid #e85c41;
+ padding: 6px 0;
+ border-radius: 2px;
+ margin-bottom: 20px;
+}  
+.B {
+    background-color: #e91e63 !important;
+        width: 384px;
+        
+        color: #fff;
+        padding: 5px 0;
+        border-radius: 3px;
+}
+.links {
+    display: block;
+    background: #000;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: solid 2px #d9d9d9;
+    border-bottom: solid 2px #d9d9d9;
+}
+.links-holder {
+    text-align: center;
+    max-width: 971px;
+    margin: auto;
+    font-size: 14px;
+}
+
+.link-categories {
+    line-height: 1.8em;
+    padding-bottom: 10px;
+}
+.bold{
+    font-weight: bold;
+}
+
+.link {
+    text-decoration: none;
+    color: #fff;
+}
+.link:hover {
+    text-decoration: underline;
+    color:#e85c41
+}
+.footer{
+    background-color: #f4e168;
+    background-image: url(/img/247-slice.png);
+    background-repeat: repeat;
+    text-align: center;
+}
+.footer span {
+    display: block;
+    padding-top: 20px;
+    font-weight: 700;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+.footer-link {
+    margin-bottom: 10px;
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+}
+.footer-link:hover {
+    color: #000;
+    text-decoration: underline;
+}
